@@ -16,8 +16,7 @@ form.addEventListener('submit', (event) => {
     const img = document.createElement('img')
     const text1 = document.createElement('p')
     const text2 = document.createElement('p')
-    console.log(upText.value)
-    console.log(downText.value)
+
     img.src =  linkImg.value
     text1.innerText = upText.value
     text2.innerText = downText.value
